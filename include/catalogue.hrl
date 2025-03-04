@@ -1,0 +1,2 @@
+-define(CATALOGUE_GUID_TABLE, guid).
+-define(CATALOGUE_TABLE, catalogue).

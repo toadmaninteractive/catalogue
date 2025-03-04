@@ -1,0 +1,8 @@
+{application, catalogue, [
+    {description, "Artplant Catalogue"},
+    {vsn, "2.0"},
+    {modules, []},
+    {registered, [catalogue_guid, catalogue_cache, catalogue_cache_sup]},
+    {applications, [kernel, stdlib, ecouch]},
+    {mod, {catalogue_app, []}}
+]}.
